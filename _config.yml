@@ -1,0 +1,44 @@
+layout: stacked
+# layout options: sidebar | stacked
+style: light
+# style options: light | dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options: pushed | stars
+  # limit: 12
+  exclude:
+    archived: false
+    forks: false
+    projects:
+    - linux-dotfiles
+    - sublime-setup
+    - lelbi
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  hackerrank: AjitZero
+  instagram: ajit_zero
+  linkedin: AjitZero
+  medium: AjitZero
+  stackoverflow: 8080186
+  telegram: ajitzero
+  twitter: ajitzero
+  website: https://ajitpanigrahi.com
+  # youtube: your_username
