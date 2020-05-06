@@ -23,12 +23,11 @@ projects:
   # sort_by options: pushed | stars
   # limit: 12
   exclude:
-    archived: false
-    forks: false
+    archived: true
+    forks: true
     projects:
     - linux-dotfiles
     - sublime-setup
-    - lelbi
 
 social_media:
   website: https://ajitpanigrahi.com
