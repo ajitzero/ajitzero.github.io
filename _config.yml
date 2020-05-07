@@ -3,6 +3,9 @@ layout: stacked
 style: light
 # style options: light | dark
 
+# meta
+trailing_title: • Fullstack Web Developer & Designer • @ajitzero
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
